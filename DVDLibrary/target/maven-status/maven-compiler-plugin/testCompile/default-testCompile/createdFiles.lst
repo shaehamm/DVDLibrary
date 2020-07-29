@@ -1,0 +1,3 @@
+com/sg/dvdlibrary/service/DVDLibraryServiceTest.class
+com/sg/dvdlibrary/daos/DVDLibraryInMemDao.class
+com/sg/dvdlibrary/daos/DVDLibraryDaoImplTest.class

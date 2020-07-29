@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.sg.dvdlibrary.service.DVDLibraryServiceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec <<< FAILURE!
+com.sg.dvdlibrary.service.DVDLibraryServiceTest.testAddDVDGoldenPath()  Time elapsed: 0.045 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <02/15/2000> but was: <2000-02-15>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at com.sg.dvdlibrary.service.DVDLibraryServiceTest.testAddDVDGoldenPath(DVDLibraryServiceTest.java:66)
+
+com.sg.dvdlibrary.service.DVDLibraryServiceTest.testBlankInput()  Time elapsed: 0 sec  <<< FAILURE!
+java.time.format.DateTimeParseException: Text '' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2046)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1948)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:428)
+	at com.sg.dvdlibrary.service.DVDLibraryServiceTest.testBlankInput(DVDLibraryServiceTest.java:117)
+
